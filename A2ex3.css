@@ -1,0 +1,128 @@
+/* ================= GENERAL: fondo amarillo y tipografía base ================= */
+body {
+    background-color: yellow;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    color: #000;
+}
+
+/* ================= CONTENEDOR CENTRAL: caja gris clara, 80% del ancho ================= */
+#contenidor {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+/* ================= CAPÇALERA: franja gris con el logo centrado ================= */
+header {
+    background-color: #666;
+    text-align: center;
+    padding: 4px 0;
+}
+header img {
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* ================= MENÚ: franja gris, items en horizontal ================= */
+nav {
+    background-color: #666;
+    margin-top: 16px;
+    text-align: center;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+/* ================= ENLACES: naranja sin subrayado; hover negro y subrayado ================= */
+a {
+    color: orange;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* ================= ARTÍCULO ================= */
+article {
+    padding: 8px 16px 16px;
+}
+
+/* ================= TÍTULOS ================= */
+h1 {
+    color: #1a7ea8;
+    font-size: 21px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* ================= TEXTO: justificado ================= */
+p, li {
+    text-align: justify;
+}
+.entradeta {
+    font-weight: bold;
+}
+
+/* ================= LÍNEAS SEPARADORAS ================= */
+hr {
+    border: 0;
+    border-top: 2px solid #555;
+}
+
+/* ================= FECHA + ICONOS SOCIALES ================= */
+.data {
+    text-align: left;
+}
+.data img {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+/* ================= IMAGEN PRINCIPAL (centrada) ================= */
+.imatge-principal {
+    display: block;
+    margin: 20px auto;
+    width: 536px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ================= ENLACES FINALES DEL ARTÍCULO ================= */
+.enllacos {
+    text-align: left;
+}
+
+/* ================= PEU: franja morada, logos centrados ================= */
+footer {
+    background-color: #9b59b6;
+    text-align: center;
+    padding: 18px 0;
+}
+footer img {
+    height: 100px;
+    width: auto;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* ================= TWEET (imatge local) ================= */
+.tweet {
+    display: block;
+    width: 440px;
+    max-width: 100%;
+    height: auto;
+    margin: 16px 0;
+}
