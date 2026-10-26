@@ -56,6 +56,14 @@ article {
     padding: 8px 16px 16px;
 }
 
+article ul {
+    list-style-type: circle;
+}
+
+article li::marker {
+    color: orange;
+}
+
 /* ================= TÍTULOS ================= */
 h1 {
     color: #1a7ea8;
@@ -125,12 +133,4 @@ footer img {
     max-width: 100%;
     height: auto;
     margin: 16px 0;
-}
-
-/* ================= LISTA DE PERSONAJES ================= */
-article ul {
-    list-style-type: circle;
-}
-article li::marker {
-    color: orange;
 }
