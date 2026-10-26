@@ -60,6 +60,10 @@ article ul {
     list-style-type: circle;
 }
 
+article li::marker {
+    color: orange;
+}
+
 /* ================= TÍTULOS ================= */
 h1 {
     color: #1a7ea8;
