@@ -126,3 +126,11 @@ footer img {
     height: auto;
     margin: 16px 0;
 }
+
+/* ================= LISTA DE PERSONAJES ================= */
+article ul {
+    list-style-type: circle;
+}
+article li::marker {
+    color: orange;
+}
